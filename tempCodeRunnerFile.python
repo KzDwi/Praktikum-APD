@@ -1,0 +1,5 @@
+jenis_kelamin = input("Masukkan jenis kelamin anda (L/P) :").upper()
+
+hasil = "Jenis Kelamin Laki-Laki" if jenis_kelamin == "L" else "Jenis Kelamin Perempuan" if jenis_kelamin == "P" else "Jenis Kelamin Tidak Diketahui"
+
+print(hasil)
